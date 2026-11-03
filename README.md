@@ -7,3 +7,4 @@ Miguel: ruta Full-Stack y VFX en tiempo real
 
 ## Prueba de commit y add
 - Este es un primer cambio para aplicar el add y luego el commit.
+- Esta es un segundo cambio para lo mismo.
