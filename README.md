@@ -19,3 +19,6 @@ Miguel: ruta Full-Stack y VFX en tiempo real
 - Add: es mandar a la zona de preparación cualquier modificación que se le hace a un archivo.
 - Commit: confirmar la modificación del archivo, para realizar esta primero se tuvo que aplicar el add y dejar listo para el push.
 - Push: la subida de las actualizaciones al repositorio en GITHUB. 
+
+### .gitignore
+Se debe crear un .gitignore y dentro de este poner los archivos que se van a ignorar.
