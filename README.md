@@ -42,3 +42,5 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
     - switch -c, crea una nueva rama y nos mueve directamente a esta nueva rama.
     - merge, fusiona una rama cualquiera a la rama en la cual ya estoy.
     - branch -d, borra una rama.
+
+## Línea de prueba.
