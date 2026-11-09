@@ -35,3 +35,10 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
 
 ## Comandos que ya sé
 - git status, add, commit, push, diff, restore
+
+## Ramas
+- ¿Qué es una rama? --> Una sesión de trabajo, en donde puedes modificar tranquilamente el código sin afectar alguna versión anterior directamente hasta que no hagas un commit y un merge.
+- ¿Qué hacen switch -c, merge, branch -d?:
+    - switch -c, crea una nueva rama y nos mueve directamente a esta nueva rama.
+    - merge, fusiona una rama cualquiera a la rama en la cual ya estoy.
+    - branch -d, borra una rama.
