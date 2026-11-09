@@ -22,3 +22,11 @@ Miguel: ruta Full-Stack y VFX en tiempo real
 
 ### .gitignore
 Se debe crear un .gitignore y dentro de este poner los archivos que se van a ignorar.
+
+## 09-nov-2026 . Día 3 . FullStack
+### git diff y git diff --staged
+- git diff, muestra exactamente todos los cambios que no has preparado, es decir los que no estan con git add, si tus cambios ya estan preparados, el comando no devuelve nada.
+- git diff --staged, muestra exatamente los cambios ya preparados pero que son diferentes con el último commit realizado.
+### git restore y git restore --staged
+- git restore, descarta los cambios realizados y el archivo vuelve a omo estaba en el último commit, este borra los cambios sin preguntar.
+- git restore --staged, saca los archivos que estan preaparados pero no altera los cambios que ya les realisaste.
