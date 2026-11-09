@@ -1,11 +1,11 @@
 # Bitácora de aprendizaje
-Miguel: ruta Full-Stack y VFX en tiempo real
+Miguel: ruta Full-Stack
 
 ## 02-nov-2026 . Día 1 . Full-Stack
 - Instalé GIT y configuré mi usuario
 - Aprendí los 3 estados de GIT
 
-## Prueba de commit y add
+### Prueba de commit y add
 - Este es un primer cambio para aplicar el add y luego el commit.
 - Esta es un segundo cambio para lo mismo.
 - Esta última línea es para probar el push.
@@ -30,3 +30,8 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
 ### git restore y git restore --staged
 - git restore, descarta los cambios realizados y el archivo vuelve a omo estaba en el último commit, este borra los cambios sin preguntar.
 - git restore --staged, saca los archivos que estan preaparados pero no altera los cambios que ya les realisaste.
+## git.ignore
+- Este comando funciona para ignorar archivos que no queremos que sean rastreados, para no estar viendo en todo momento que no son rastreados.
+
+## Comandos que ya sé
+- git status, add, commit, push, diff, restore
