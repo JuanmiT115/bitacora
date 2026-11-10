@@ -30,19 +30,24 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
 ### git restore y git restore --staged
 - git restore, descarta los cambios realizados y el archivo vuelve a omo estaba en el último commit, este borra los cambios sin preguntar.
 - git restore --staged, saca los archivos que estan preaparados pero no altera los cambios que ya les realisaste.
-## git.ignore
+### git.ignore
 - Este comando funciona para ignorar archivos que no queremos que sean rastreados, para no estar viendo en todo momento que no son rastreados.
 
-## Comandos que ya sé
+### Comandos que ya sé
 - git status, add, commit, push, diff, restore
 
-## Ramas
+### Ramas
 - ¿Qué es una rama? --> Una sesión de trabajo, en donde puedes modificar tranquilamente el código sin afectar alguna versión anterior directamente hasta que no hagas un commit y un merge.
 - ¿Qué hacen switch -c, merge, branch -d?:
     - switch -c, crea una nueva rama y nos mueve directamente a esta nueva rama.
     - merge, fusiona una rama cualquiera a la rama en la cual ya estoy.
     - branch -d, borra una rama.
 
-## Línea de prueba.
+### Línea de prueba.
 
 - Practiqué subir una rama a GitHub.
+
+### Diferencia entre Fast-Forward de un merge a tres bandas
+- El fast-forward es cuando haces cambio en una nueva rama y no modificas nada desde la rama principal.
+- El merge a tres bandas es cuando haces cambios en la nueva rama y al mismo tiempo haces cambio en la rama principal.
+
