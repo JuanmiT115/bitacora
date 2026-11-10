@@ -44,3 +44,5 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
     - branch -d, borra una rama.
 
 ## Línea de prueba.
+
+- Practiqué subir una rama a GitHub.
