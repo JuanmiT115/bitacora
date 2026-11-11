@@ -1,4 +1,4 @@
-# Bitácora de aprendizaje
+# Diario de Miguel
 Miguel: ruta Full-Stack
 
 ## 02-nov-2026 . Día 1 . Full-Stack
