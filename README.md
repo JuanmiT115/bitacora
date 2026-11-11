@@ -1,7 +1,7 @@
 
 # Bitacora de Miguel de programación
 
-Miguel: ruta Full-Stack
+Miguel: Desarrollor FullStack
 
 ## 02-nov-2026 . Día 1 . Full-Stack
 - Instalé GIT y configuré mi usuario
