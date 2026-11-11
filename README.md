@@ -59,5 +59,8 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
     - El fast-forward se da cuando realizas alguna modificación en una rama a parte y no haces naada en la rama principal, el commit merge (merge a tres bandas) se da cuando haces un cambio en la nueva rama y al mismo tiempo realizas un cambio en la rama main.
 - El git push -u origin nombre_rama, lo que hace es subir la rama al repositorio en GITHUB.
 
-
+### Qué es un conflicto?
+- Es cuando desde dos ramas diferentes se modifica la misma línea de un mismo archivo.
+    - Como solucionarlo, se debe primero corregir el cambio y decidir cual se va a dejar fijo, luego de esto se ejecuta un add para confirmarle a git que se resolvio el conflicto y luego se ejecuta un commit con el cual se sube el archivo con el conflicto solucionado.
+    
 
