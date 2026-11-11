@@ -53,6 +53,7 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
 - El fast-forward es cuando haces cambio en una nueva rama y no modificas nada desde la rama principal.
 - El merge a tres bandas es cuando haces cambios en la nueva rama y al mismo tiempo haces cambio en la rama principal.
 
+<<<<<<< HEAD
 ## 10-nov-2026 . Día 4 . FullStack
 ### Repaso día anterior
 - Diferencia entre FAST-FORWARD y un COMMIT MERGE
@@ -61,3 +62,6 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
 
 
 
+=======
+Modificación desde el github.
+>>>>>>> 11d5742737cd406bbed11298a9d1c8da7183b2fc
