@@ -1,4 +1,6 @@
-# Diario de Miguel
+
+# Bitacora de Miguel de programación
+
 Miguel: ruta Full-Stack
 
 ## 02-nov-2026 . Día 1 . Full-Stack
@@ -50,4 +52,12 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
 ### Diferencia entre Fast-Forward de un merge a tres bandas
 - El fast-forward es cuando haces cambio en una nueva rama y no modificas nada desde la rama principal.
 - El merge a tres bandas es cuando haces cambios en la nueva rama y al mismo tiempo haces cambio en la rama principal.
+
+## 10-nov-2026 . Día 4 . FullStack
+### Repaso día anterior
+- Diferencia entre FAST-FORWARD y un COMMIT MERGE
+    - El fast-forward se da cuando realizas alguna modificación en una rama a parte y no haces naada en la rama principal, el commit merge (merge a tres bandas) se da cuando haces un cambio en la nueva rama y al mismo tiempo realizas un cambio en la rama main.
+- El git push -u origin nombre_rama, lo que hace es subir la rama al repositorio en GITHUB.
+
+
 
