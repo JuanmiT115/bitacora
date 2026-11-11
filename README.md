@@ -45,11 +45,7 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
     - merge, fusiona una rama cualquiera a la rama en la cual ya estoy.
     - branch -d, borra una rama.
 
-<<<<<<< HEAD
 ### Línea de prueba conflicto.
-=======
-### Conflicto línea de prueba.
->>>>>>> linea-a
 
 - Practiqué subir una rama a GitHub.
 
