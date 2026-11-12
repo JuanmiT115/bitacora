@@ -62,5 +62,25 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
 ### Qué es un conflicto?
 - Es cuando desde dos ramas diferentes se modifica la misma línea de un mismo archivo.
     - Como solucionarlo, se debe primero corregir el cambio y decidir cual se va a dejar fijo, luego de esto se ejecuta un add para confirmarle a git que se resolvio el conflicto y luego se ejecuta un commit con el cual se sube el archivo con el conflicto solucionado.
+
+### git pull
+- Este comando trae la versión más reciente del repositorio desde github.
+    - Como hábito siempre ejecutar un git pull antes de empezar a trabajar para tener la versión más reciente siempre.
     
+## 11-nov-2026 . Día 5 . FullStack
+### git diff --check
+- Se ejecuta antes de un git add después de resuelto un conflicto con el fin de confirmar de que no haya quedado nada mal.
+    - Como hábito, ejecutar este comando siempre antes de un add después de resolver un conflicto.
+
+### Pull Request
+- Es un proceso en el cual compara la rama en la que estoy trabajando con el main y permite revisión y comentar antes de fusionar, todo esto desde git hub.
+    - Pasos:
+        - Se debe crear una nueva rama de trabajo.
+            - En esta se debe hacer la modificació, el add y luego el commit, no se hace el merge desde main.
+        - Se debe hacer un git push -u origin rama, para subir lo trabajado en la rama a git hub.
+        - Luego en github se hace un compare & pull request, donde nos muestra los cambios realizados, que diferencias hay con el main.
+            - En este se debe poner un título claro y una descripción detallada de lo que se hizo y porqué para que lo revisen. Luego se revisa y estos dejaran comentarios de si esta bien o toca hacer algún otro cambio. (Los comentarios se hacen en las línea de código con el + azul.)
+        - Luego de realizada la revisión de hace el Merge pull request y luego confirm merge, con lo cual se fusiona la rama con el main con los cambios realizados.
+        - Después de todo esto como el merge se hizo desde github, el trabajo desde mi computador estara desactualizado por lo cual debo hacer un git pull para traer los cambios realizados desde github.
+            - Si se desea después de haber realizado los cambios en la otra rama y terminar de trabajar con ella se puede borrar desde github y tambien en el equipo después de realizado el git pull. (Para realizar el git pull a mi equipo primero se debe cambiar a la rama main.)
 
