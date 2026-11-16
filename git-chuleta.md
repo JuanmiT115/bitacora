@@ -30,6 +30,22 @@ En negrilla estaran las correcciones realizadas y aquellos comandos que no escri
 |16°|git push -u origin *nombre_rama*|~~Esta se hace desde la rama en la cual estoy trabajando, la cual si es diferente al main, esto genera un pull request en GitHub **(*el -u se usa solo la primera vez que se realiza el push de una rama en local, después el comando es solo git push origin nombre_rama [esto último aplica para cuando se haga el push desde el main]*)**~~|**El push no crea el pull request. Solo sube la rama; GitHub te ofrece un botón (“Compare & pull request”) para crearlo, pero el PR lo abres tú. Después del -u, el siguiente push es solo git push, sin origin nombre_rama, y vale para cualquier rama, incluida main. El -u deja la rama enlazada; por eso no hay que repetir el nombre.**|
 |17°|git push origin|Sube todo los commits realizados desde local al repositorio en GitHub| |
 |18°|git clone *url_repositorio*|Clona un repositorio desde GitHub a mi local| |
-|19°|git reset| ~~Trae todo lo que habia antes de realizado un merge~~| |
+|19°|git reset| ~~Trae todo lo que habia antes de realizado un merge~~|**mueve la rama actual a otro commit**|
 |20°|git remote **add origin *url_repositorio***|**Víncula un repositorio de GitHub al cual estoy trabajando en local (*el add origin le da el alias al repositorio de origin para no tener que poner el url cada vez que se hace un push*)**|**Definición puesta después de revisado mis apuntes**|
 |21°|**pwd**|En la terminal me muestra donde estoy| |
+|22°|cd *directorio*|Me cambia al directorio en la terminal| |
+|23°|cd ..|Me devuelve al directorio anterior al cual estoy trabajando| |
+|24°|touch *nombre_archivo.tipo*|Desde la terminal crea un archivo| |
+|25°|code .|Desde la terminal abre el VS (Visual Studio Code) para trabajar los archivos| |
+|26°|**mkdir** *nombre_directorio*|Crea un directorio desde la terminal| | 
+|27°|**ls**|Me muestra desde la terminal lo que hay dentro de un directorio||
+|28°|**git branch -M main**|**Nombra a la fuerza la rama como main**|**Definición puesta después de revisado mis apuntes**|
+|29°|**touch .gitignore**|**Crea un archivo en el cual dentro van a ir todas las especificaciones de los archivos que no queremos que sean rastreados dentro del repositorio**|**Definición puesta después de revisado mis apuntes**|
+|30°|**git diff --check**|**Este se usa después de resuelto un conflicto de algún merge, si no muestra nada es por que esta limpio el archivo después de solucionado dicho conflicto**|**Definición puesta después de revisado mis apuntes**|
+|31°|**git rm *nombre_archivo***|**Elimina el archivo del directorio de trabajo y prepara la eliminación para la próxima confirmación**|**Definición puesta después de revisado mis apuntes**|
+|32°|**git reset HEAD *nombre_archivo***|**Prácticamente hace lo mismo que el comando git restore --staged**|**Definición puesta después de revisado mis apuntes**|
+|33°|**git reset --hard HEAD**|**Elimina todas las modificaciones preparadas y no preparadas de todo el repositorio hasta el último commit**|**Definición puesta después de revisado mis apuntes**|
+|34°|**git merge --abort**|**Cancela un merge con conflicto y vuelve a como estaba antes**|**Definición puesta después de revisado mis apuntes**|
+|35°|**git log --oneline --graph --all**|**Muesta el historial como árbol, con todas las ramas**|**Definición puesta después de revisado mis apuntes**|
+|36°|**git push origin --delete *nombre_rama***|**Borra una rama en GitHub**|**Definición puesta después de revisado mis apuntes**|
+
