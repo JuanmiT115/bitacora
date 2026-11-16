@@ -49,3 +49,19 @@ En negrilla estaran las correcciones realizadas y aquellos comandos que no escri
 |35°|**git log --oneline --graph --all**|**Muesta el historial como árbol, con todas las ramas**|**Definición puesta después de revisado mis apuntes**|
 |36°|**git push origin --delete *nombre_rama***|**Borra una rama en GitHub**|**Definición puesta después de revisado mis apuntes**|
 
+## Preguntas rápidas
+
+1. ¿Qué diferencia hay entre git add y git commit?<br/>
+  Git add envia las modificaciones que realice a algún archivo a la zona de preparación y git commit confirma dichas modificaciones que estan ya en la área de preparación.
+2.  ¿Por qué falla un git push y cómo se arregla?<br/>
+   GitHub tiene commits que tú no tienes en tu computador, por ejemplo porque alguien (o tú desde la web) subió cambios. Git rechaza el push para no sobrescribir ese trabajo. El mensaje dice algo como rejected y te sugiere hacer fetch o pull primero. git pull para traer esos commits y fusionarlos con los tuyos.
+Si aparece un conflicto, lo resuelves (y verificas con git diff --check), luego add y commit.
+git push otra vez.
+3. ¿Qué haces si un merge te genera conflicto?<br/>
+   Si es fácil de solucionar reviso el conflicto que me genera y decido que modificación mantener o los complemento entre sí, si wa muy dificil y no lo entiendo lo mejor es aplicar un git merge --abort para cancelar el merge y que vuelva todo a como estaba antes.
+4. ¿Qué es un pull request y para qué sirve?<br/>
+   Es una solicitud para fusionar una rama con la principal o con otra en la cual notifico a mi equipo de que quiero realizar dicha modificación para que puedan revisar las modificaciones y me comenten que cambios hacerles o que cambiarle y poder tener el vistaso bueno para fusionar la rama.
+5. ¿Qué archivos pondrías en .gitignore y por qué?<br/>
+    Aquellos archivos que no quiero que sean reastreados para que no me aparezcan en rojo siempre que ejecute un git status. Tambien para no subir archivos a GitHub que no deberian estar ahi.
+6. ¿Qué hace git reset --hard y cuándo es peligroso?<br/>
+   Elimina todas las modificaciones esten o no preparadas de todo el repositorio y deja el repositorio a como estaba con el último commit, y este cambio es irreversible. Es peligroso cuando quiero resetear un solo archivo por x o y razon y termino reseteando todo lo demás trabajado en el repositorio obligandome a realizar nuevamente todo lo que ya habia hecho.
