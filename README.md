@@ -76,7 +76,7 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
 - Es un proceso en el cual compara la rama en la que estoy trabajando con el main y permite revisión y comentar antes de fusionar, todo esto desde git hub.
     - Pasos:
         - Se debe crear una nueva rama de trabajo.
-            - En esta se debe hacer la modificació, el add y luego el commit, no se hace el merge desde main.
+            - En esta se debe hacer la modificación, el add y luego el commit, no se hace el merge desde main.
         - Se debe hacer un git push -u origin rama, para subir lo trabajado en la rama a git hub.
         - Luego en github se hace un compare & pull request, donde nos muestra los cambios realizados, que diferencias hay con el main.
             - En este se debe poner un título claro y una descripción detallada de lo que se hizo y porqué para que lo revisen. Luego se revisa y estos dejaran comentarios de si esta bien o toca hacer algún otro cambio. (Los comentarios se hacen en las línea de código con el + azul.)
