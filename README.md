@@ -83,4 +83,8 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
         - Luego de realizada la revisión de hace el Merge pull request y luego confirm merge, con lo cual se fusiona la rama con el main con los cambios realizados.
         - Después de todo esto como el merge se hizo desde github, el trabajo desde mi computador estara desactualizado por lo cual debo hacer un git pull para traer los cambios realizados desde github.
             - Si se desea después de haber realizado los cambios en la otra rama y terminar de trabajar con ella se puede borrar desde github y tambien en el equipo después de realizado el git pull. (Para realizar el git pull a mi equipo primero se debe cambiar a la rama main.)
+  
+
+## 15-nov-2026 . Día 6 . FullStack
+- Hoy solo se organizó el README.md de mi repositorio de perfil y se práctico estilos y sintaxys en markdown.
 
