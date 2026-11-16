@@ -87,4 +87,9 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
 
 ## 15-nov-2026 . Día 6 . FullStack
 - Hoy solo se organizó el README.md de mi repositorio de perfil y se práctico estilos y sintaxys en markdown.
+  
+## 16-nov-2026 . Día 7 . FullStack
+- Se creo una chuleta con apuntes sobres comandos de git y demás.
+- Se trabajo el tema de los issues con github.
+  - Si se hace una modificación que resuelve un issue, al momento de hacer un pull request de la rama en la cual solucione dicho problema en la descripción se debe poner Close #*numeroissue*, para que al momento de hacer merge cierre el issue.
 
