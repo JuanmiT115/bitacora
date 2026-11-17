@@ -93,3 +93,5 @@ Se debe crear un .gitignore y dentro de este poner los archivos que se van a ign
 - Se trabajo el tema de los issues con github.
   - Si se hace una modificación que resuelve un issue, al momento de hacer un pull request de la rama en la cual solucione dicho problema en la descripción se debe poner Close #*numeroissue*, para que al momento de hacer merge cierre el issue.
 
+## 17-nov-2026 . Día 8 . FullStack
+- Se inicio con python, viendo variables, print() e input() y demás funciones que que se pueden aplicar a las variables estilo str, como quitar los espacios al inicio y al final, poner mayúsculas en cada palabra, poner todo en minúscula, reemplazar textos y pasar de texto a flotantes.
