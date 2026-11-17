@@ -17,7 +17,7 @@ En negrilla estaran las correcciones realizadas y aquellos comandos que no escri
 |3°|git add *nombre_archivo*|Agrega las modificaciones realizadas a un archivo a la fase de preparación para que puedan salir al siguiente commit| |
 |4°|git commit -m "*mensaje commit*"|Es la fase de confirmación de las modificaciones que estan preparadas| |
 |5°|git log|Muestra los commits realizados en el repositorio| |
-|6°|git diff|Muestra las modificaciones realizadas a un archivo (*modificacciones que no hayan sido preparadas*)| |
+|6°|git diff|Muestra las modificaciones realizadas a un archivo (*modificaciones que no hayan sido preparadas*)| |
 |7°|git diff --staged|Muestra las modificaciones que ya estan preparadas de un archivo| |
 |8°|git restore ***nombre_archivo***|**Se descarta el cambio y el archivo vuelve a como estaba en el último commit. Este borra los cambios sin preguntar.**|
 |9°|**git restore --staged *nombre_archivo***|**Se saca el archivo que ya esta preparado, pero los cambios realizados siguen en el archivo**|**Definición puesta después de revisado mis apuntes** |
